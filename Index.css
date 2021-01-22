@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   background: url(https://vignette.wikia.nocookie.net/onepiece/images/5/50/Wiki-background/revision/latest?cb=20170930002910) 100%;
+
+}
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+li{
+    display: block;
+    margin: 5px 0px;
+    position: relative;
+    right: 20px;
+    background-color: rgba(100, 100, 100, 0.616);
+}
+@font-face {
+    font-family: Scriptina;
+    src: url(scriptina.ttf);
+}
+h2{
+    
+    font-size: 2em;
+}
+footer{
+    background-color: gray;
+    margin: 10px 10px;
+}
+
+#main{
+    margin: 100px 50px;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgba(238, 238, 238, 0.568);
+}
+#title{
+    color: rgba(255, 0, 0, 0.795);
+    text-align: center;
+    font-size: 8em;
+    font-family: Scriptina;
+    margin: -120px 0px 1px ;
+}
+#img-div{
+    background: rgba(238, 238, 238, 0.568);
+  padding: 10px;
+  margin: 0;
+}
+#img-caption{
+    color: rgba(0, 0, 255, 0.767);
+    text-align: center;
+    font-size: 1.5rem;
+}
+#headline{
+    background-color: rgba(100, 100, 100, 0.616);
+    margin: 0px 0px;
+    text-align: center;
+    font: 2em sans-serif;
+}
+#tribute-info{
+    background-color: rgba(238, 238, 238, 0.568);
+
+}
+
+.align{
+  display: flex;
+    flex-direction: row;
+}
+.paddom{
+    text-rendering: auto;
+    order: 1;
+    font-size: 1.5em;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto 10px;
+  } 
+.fa-facebook {
+    /*border: 0.5px solid black;*/
+    background: transparent;
+    color: white;
+  }
+  .fa-twitter {
+   /* border: 0.5px solid black;*/
+    background: transparent;
+    color: white;
+  }
+  .fa-linkedin {
+    /*border: 0.5px solid black;*/
+    background: transparent;
+    color: white;
+ }
+  .fa-instagram {
+   /* border: 0.5px solid black;*/
+    background: transparent;
+    color: white;
+  }
+
+  .foot{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+  }
